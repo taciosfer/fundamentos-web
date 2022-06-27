@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a> <!-- ATRIBUTO target="_blank" para ir pra outra página! -->
         </li>
@@ -15,27 +16,50 @@
             <a href="contato.html">Contato</a>
         </li>
     </ul>
-    <h1>Sobre o Charlinho</h1>
-    <p>
-    Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Suco de cevadis deixa as pessoas mais interessantis. Suco de cevadis, é um leite divinis, qui tem lupuliz, maltis, aguis e fermentis.
-    </p>
-    <p>
-    Quem num gosta di mé, boa gentis num é. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Quem num gosta di mim que vai caçá sua turmis! Atirei o pau no gatis, per gatis num morreus.
-    </p>
-    <p>
-    Per aumento de cachacis, eu reclamis. Cevadis im ampola pa arma uma pindureta. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.
-    </p>
-    <img src="assets/img/Foto Charlinho.jpg" alt="Foto do desenvolvedor dessa página">
+    <h1 class="center">Sobre o Charlinho</h1>
+    <div class="container">
+        <div>
+            <img class="borderradius50 widthheight300 padding30" src="assets/img/charlinho.jpg" alt="Foto do homenageado por essa página">
+        </div>
+        <div class="padding30">
+            <p class="justify">
+            Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Suco de cevadis deixa as pessoas mais interessantis. Suco de cevadis, é um leite divinis, qui tem lupuliz, maltis, aguis e fermentis.
+            </p>
+            <p class="justify">
+            Quem num gosta di mé, boa gentis num é. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Quem num gosta di mim que vai caçá sua turmis! Atirei o pau no gatis, per gatis num morreus.
+            </p>
+            <p class="justify">
+            Per aumento de cachacis, eu reclamis. Cevadis im ampola pa arma uma pindureta. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.
+            </p>
+        </div>
+    </div>
 
-    <h2>Entenda:</h2>
-    <iframe
-    width="600"
-    height="300"
-    src="https://www.youtube.com/embed/q_xuwdSyOJs"
-    title="Vídeo do YouTube"
-    frameborder="10"
-    allow="accelerometer; autoplay; clipboard-write;
-    encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
+    <h2 class="center">Entenda</h2>
+    <div class="container bottomargin50">
+        <iframe
+        width="600"
+        height="300"
+        src="https://www.youtube.com/embed/q_xuwdSyOJs"
+        title="Vídeo do YouTube"
+        frameborder="10"
+        allow="accelerometer; autoplay; clipboard-write;
+        encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+        </iframe>
+    </div>
+    <hr> <!-- tag para separação entre seções -->
+    <footer>
+        <div class="container">
+            <a href="https://www.linkedin.com/in/taciosfer/">
+                <img class="socialsize padding30" src="assets/img/linkedin.png" alt="Logo do LinkedIn">
+            </a>
+            <a href="https://github.com/taciosfer">
+                <img class="socialsize padding30" src="assets/img/github.png" alt="Logo do GitHub">
+            </a>
+        </div>
+        <p class="center">
+            Recursos Utilizados por um Pobre Estudante &copy Sem Nenhum Direito Reservado
+        </p>
+    </footer>
 </body>
 </html>
